@@ -1,0 +1,19 @@
+
+.card 
+    .card-image
+        .booth__title{
+            background-color: #AD1457;
+            border-radius: 20px;
+            font-size: 20px;
+            padding: 2px;
+        }
+
+.booth__name{
+    font-size: .75rem;
+    font-weight: bold !important;
+    color: grey;
+}
+
+.booth__content{
+    padding: 10px !important;
+}

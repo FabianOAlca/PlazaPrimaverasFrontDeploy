@@ -1,0 +1,16 @@
+
+.title__destacados{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured__container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured__title{
+    width: 100%;
+}

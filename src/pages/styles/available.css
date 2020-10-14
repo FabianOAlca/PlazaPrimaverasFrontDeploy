@@ -1,0 +1,23 @@
+.button__available_2{
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 0px;
+    background-color: #AD1457;
+    padding: 15px;
+    color: white;
+}
+
+.button__rented_2{
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    left: 450px;
+    padding: 15px;
+    color:grey;
+    
+}
+
+.button__rented_2:hover{
+    background-color: rgba(255, 0, 25, 0.3);
+}

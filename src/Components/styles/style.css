@@ -1,0 +1,49 @@
+/* Custom Stylesheet */
+
+ html {
+  font-family: 'Raleway', sans-serif;
+}
+
+#index-banner{
+  background-image: url(./resources/mall2.jpg);
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+#detail-banner {
+  max-width: 100%;
+  height: auto;
+}
+
+#fb-icon {
+  max-width: 22px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#ig-icon {
+  max-width: 22px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+}
+

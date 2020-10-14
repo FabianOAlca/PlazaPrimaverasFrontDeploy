@@ -1,0 +1,37 @@
+
+.images__container{
+ 
+    padding: 0px 8.75rem !important;
+}
+
+.info__container{
+    padding: 0px 8.75rem !important;
+}
+
+.storePage__description{
+    font-size: 25px;
+    margin: 0px;
+}
+
+
+
+.store__descroption{
+    font-size: 25px !important;
+}
+
+.store__logo{
+    margin-bottom: 50px !important;
+}
+.info__pageStore{
+    border-top: solid 1px gray  ;
+}
+
+.storePage__numLocal{
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+    padding-left: 0px;
+}
+
+.name__store{
+    margin-bottom: 0px !important;
+}
