@@ -4,7 +4,6 @@ import Galery from '../Components/galery';
 import './styles/aboutUs.css';
 import {Link} from 'react-router-dom';
 
-
 const credential= process.env.REACT_APP_GOOGLE_CREDENTIAL;
 
 function AboutUs(props) {
