@@ -7,13 +7,15 @@ import M from 'materialize-css';
 
 const endpoint = process.env.REACT_APP_BASE_URL 
 
+
+
 function Directory(props) {
    
    const [booths, setbooths] = useState([]);
    
    // function to get all messy info from backend 
    async function fetchbooths() {
-      const response = await axios.get(`${endpoint}/locales/`);
+      const response = await axios.get(`${endpoint}locales/`);
       setbooths(response.data)
    }
    

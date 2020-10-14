@@ -4,13 +4,13 @@ import axios from 'axios';
 import './styles/featured.css';
 import {Link} from 'react-router-dom'
 
-const endpoint = 'https://plazabackendapi.herokuapp.com'
+const endpoint = process.env.REACT_APP_BASE_URL 
 
 function Featured(props){
 
     const [booths, setbooths] = useState([]);
     async function fetchbooths() {
-        const response = await axios.get(`${endpoint}/locales/`);
+        const response = await axios.get(`${endpoint}locales/`);
         setbooths(response.data)
       }
      useEffect(()=>{

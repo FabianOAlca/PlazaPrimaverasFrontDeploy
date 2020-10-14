@@ -6,6 +6,7 @@ import './styles/storePage.css';
 
 const endpoint = process.env.REACT_APP_BASE_URL 
 
+
 function StorePage(props) {
     
     const [store, setStore] = useState([]);
