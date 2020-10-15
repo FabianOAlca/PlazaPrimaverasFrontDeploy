@@ -8,6 +8,7 @@
     margin: 0cm; 
 }
 
+
 @media (max-width:600px){
     .aboutUs__logo{
         display: none;
