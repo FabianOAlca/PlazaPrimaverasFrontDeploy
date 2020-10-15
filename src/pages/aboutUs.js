@@ -14,10 +14,10 @@ function AboutUs(props) {
                     <h3 className="header left grey-text"><strong>Conocenos</strong></h3>  
                 </div>
                 <div className="row s12">
-                    <div className="col l4 s4">
+                    <div className="col l4 s4 aboutUs__logo">
                         <img id="detail-banner" src="./images/plazaPrimaveras.jpg"/> 
                     </div>
-                    <div className="col l8 s8">
+                    <div className="col l8 s8 aboutUs__map">
                         <Map
                             googleMapURL= {`https://maps.googleapis.com/maps/api/js?v3.exp&key=${credential}`}
                             containerElement = {<div style={{height: '300px'}}/>}
@@ -27,8 +27,8 @@ function AboutUs(props) {
                     </div>
                 </div>
                 <div className="row s12">
-                    <div className="col l4 s4">
-                        <h5 className="grey-text text-darken-2"><strong>Datos</strong></h5>
+                    <div className="col l4 s4 aboutUs__datos">
+                        <h5 className="grey-text text-darken-2"><strong>Datos:</strong></h5>
                         <p className="grey-text aboutUs__datos"><strong>Teléfono: 312 320 2404 </strong></p>
                         <p className="grey-text aboutUs__datos"><strong> Correo: faosba@hotmail.com</strong></p>
                         <div class="row">
@@ -37,12 +37,9 @@ function AboutUs(props) {
                                     <img id="fb-icon" src="https://image.flaticon.com/icons/svg/1384/1384005.svg"/>
                                 </a>
                             </div>
-                            <div class="col l1 s3">
-                                <img id="ig-icon" src="https://image.flaticon.com/icons/svg/1384/1384015.svg"/>
-                            </div>
                         </div>
                     </div>
-                    <div className="col l8 s8">
+                    <div className="col l8 s8 aboutUs_container_description">
                         <p className="aboutUs__description ">Plaza Primavera's es parte de Villa de Álvarez desde hace 8 años, 
                         fundada en 2012, nuestro objetivo siempre ha sido ofrecer una amplia y diversa gama de productos 
                         a nuestros clientes, así como espacios óptimos para todos nuestros locatarios.

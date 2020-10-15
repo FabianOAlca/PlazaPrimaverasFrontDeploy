@@ -7,3 +7,23 @@
     font-size: 20px;
     margin: 0cm; 
 }
+
+@media (max-width:600px){
+    .aboutUs__logo{
+        display: none;
+    }
+    .aboutUs__map{
+        width: 100% !important;
+    }
+    .aboutUs__description{
+        font-size: 17px;
+        width: 100% !important;
+    }
+    .aboutUs__datos{
+        margin-right: 5px;
+        width: 100% !important;
+    }
+    .aboutUs_container_description{
+        width: 100% !important;
+    }
+}

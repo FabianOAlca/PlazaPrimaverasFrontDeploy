@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import axios from 'axios';
-import {useParams} from 'react-router-dom'
+import {Link, useParams} from 'react-router-dom'
 import M from 'materialize-css';
 import './styles/storePage.css';
 
@@ -81,8 +81,12 @@ function StorePage(props) {
                     </div>
                     <div className="col l8 s8 info__container">
                         <div className="row">
-                            <h5 className="grey-text text-darken-2 " ><strong>Descripcion</strong></h5>
-                            <p className="grey-text store__descroption">{description}</p>
+                            <div className="row store__title__description">
+                                <h5 className="grey-text text-darken-2 " ><strong>Descripcion</strong></h5>
+                            </div>
+                            <div className="row">
+                                <p className="grey-text store__descroption">{description}</p>
+                            </div>
                         </div>
                         <div className="row">
                             <h5 className="grey-text text-darken-2"><strong>Redes Sociales</strong></h5>
@@ -90,7 +94,8 @@ function StorePage(props) {
                                 <img id="fb-icon" src="https://image.flaticon.com/icons/svg/1384/1384005.svg"/>
                             </a>
                         </div>
-                    </div>                    
+                    </div>
+                    <Link to="/directory" id="download-button" className="btn-large waves-effect deep-orange darken-2">Ver Locales</Link>   
                 </div> 
             </div>
         </div>
